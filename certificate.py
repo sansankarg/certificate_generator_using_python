@@ -24,7 +24,7 @@ datascience = Image.open("datascience.png")
 
 for i, row in data.iterrows():
     #opening base certificate iamge file
-    im = Image.open("certificate4.jpg")
+    im = Image.open("certificate.jpg")
 
     #creating draw function
     d = ImageDraw.Draw(im)
